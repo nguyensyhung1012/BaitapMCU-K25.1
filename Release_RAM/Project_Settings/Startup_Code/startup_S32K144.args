@@ -1,0 +1,5 @@
+-c
+-I"D:/MCU-S32K/S32K_Blinkled/include"
+-x assembler-with-cpp
+-mcpu=cortex-m4
+-specs=rdimon.specs
