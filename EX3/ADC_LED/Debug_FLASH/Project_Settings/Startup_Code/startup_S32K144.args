@@ -1,0 +1,7 @@
+-c
+-I"D:/NEW-MCU/EX3.2/ADC_LED/include"
+-x assembler-with-cpp
+-DSTART_FROM_FLASH
+-g3
+-mcpu=cortex-m4
+-specs=rdimon.specs
