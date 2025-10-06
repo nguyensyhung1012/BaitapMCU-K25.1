@@ -1,0 +1,7 @@
+-c
+-I"D:/MCU/EX2/BLINKLED_PROJECT2/BLINK_PROJECT2/include"
+-x assembler-with-cpp
+-DSTART_FROM_FLASH
+-g3
+-mcpu=cortex-m4
+-specs=rdimon.specs

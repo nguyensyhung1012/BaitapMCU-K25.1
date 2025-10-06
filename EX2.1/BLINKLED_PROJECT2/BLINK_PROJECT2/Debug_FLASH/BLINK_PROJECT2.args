@@ -1,0 +1,14 @@
+-T
+"D:/MCU/EX2/BLINKLED_PROJECT2/BLINK_PROJECT2/Project_Settings/Linker_Files/S32K144_64_flash.ld"
+-Wl,-Map,"BLINK_PROJECT2.map"
+-Xlinker
+--gc-sections
+-n
+-mcpu=cortex-m4
+-specs=rdimon.specs
+"./Project_Settings/Startup_Code/startup.o"
+"./Project_Settings/Startup_Code/startup_S32K144.o"
+"./Project_Settings/Startup_Code/system_S32K144.o"
+"./src/driver/Driver_NVIC.o"
+"./src/driver/clock_and_mode.o"
+"./src/main.o"
