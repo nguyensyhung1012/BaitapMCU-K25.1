@@ -1,0 +1,12 @@
+-DCPU_S32K144HFT0VLLT
+-I"D:/NEW-MCU/driver_UART/include"
+-I"D:/NEW-MCU/driver_UART/src/include"
+-O0
+-g3
+-Wall
+-c
+-fmessage-length=0
+-ffunction-sections
+-fdata-sections
+-mcpu=cortex-m4
+-specs=rdimon.specs
