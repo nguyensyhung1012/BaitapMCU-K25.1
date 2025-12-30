@@ -1,0 +1,7 @@
+-c
+-I"D:/NEW-MCU/mockproject1/Mock_prj1/LED_APP/APP_LED/include"
+-x assembler-with-cpp
+-DSTART_FROM_FLASH
+-g3
+-mcpu=cortex-m4
+-specs=rdimon.specs
